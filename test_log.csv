@@ -1,0 +1,6 @@
+TestCaseID,TestName,Status
+TC001,Login Test,PASS
+TC002,Payment Test,FAIL
+TC003,Search Test,PASS
+TC004,Checkout Test,FAIL
+TC005,Logout Test,PASS

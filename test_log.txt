@@ -1,0 +1,6 @@
+PASS: Login Test
+FAIL: Payment Test
+PASS: Search Test
+FAIL: Checkout Test
+PASS: Logout Test
+FAIL: Profile Update Test
