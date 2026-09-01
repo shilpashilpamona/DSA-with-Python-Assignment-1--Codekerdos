@@ -1,0 +1,17 @@
+class Solution(object):
+    def min_subarray(self, nums, k):
+        win_sum = sum(nums[:k])
+        min_sum = win_sum
+
+        for i in range(k, len(nums)):
+            updated_sum = min_sum - nums[i - k] + nums[i]
+            min_sum = min(min_sum, updated_sum)
+
+        return min_sum / k
+
+
+sol = Solution()
+nums = [0, -2, -4, 8, 3, -3]
+k = 4
+sol.min_subarray(nums, k)
+print(sol.min_subarray(nums, k))
